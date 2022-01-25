@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-color: #45d143;
+    margin-bottom: 0px;
+}
+
+.title{
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+main{
+    display: flex;
+}
+
+main div{
+    background-color: #f0e084;
+    margin-top: 0px;
+    width: 75%;
+
+}
+
+aside {
+    width: 25%;
+    background-color: #d1c477;
+  }
