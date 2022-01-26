@@ -3,7 +3,8 @@
 }
 
 html{
-    background-image: url(../assets/background.jpg);
+    /*background-image: url(../assets/background.jpg);*/
+    background-color: #b3bd97;
 }
 
 header{
@@ -20,7 +21,7 @@ header{
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color:#90ff6e ;
+    background-color: #4f573c  ;
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
@@ -39,7 +40,7 @@ main{
 }
 
 main article{
-    background-color: #f0e084;
+    background-color: #cdbca8 ;
     margin-top: 0px;
     flex: 1 75%;
     max-width: 75%;
@@ -51,7 +52,7 @@ aside {
     text-align: center;
     flex: 1 25%;
     max-width: 25%;
-    background-color: #d1c477;
+    background-color: #af9f9a ;
     margin-right: 20px;
   }
 
