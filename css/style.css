@@ -7,10 +7,6 @@ html{
     background-color: #b3bd97;
 }
 
-header{
-    
-}
-
 .title{
     padding: 40px;
     text-transform: uppercase;
@@ -45,7 +41,7 @@ main article{
     flex: 1 75%;
     max-width: 75%;
     margin-left: 20px;
-
+    padding: 20px;
 }
 
 aside {
