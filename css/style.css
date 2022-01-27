@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Green-Hostel";
+    src: url("../fonts/Green\ Hostel.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Louis-George";
+    src: url("../fonts/Louis\ George\ Cafe.ttf") format("truetype");
+}
+
 *{
     box-sizing: border-box;
 }
@@ -12,15 +22,29 @@ html{
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px;
+    font-family: Green-Hostel;
+    font-size: 80px;
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
     background-color: #4f573c  ;
+    color: white;
+    font-family: Louis-George;
+    font-size: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+aside h1{
+    font-family: Louis-George;
+    font-weight: bold;
+}
+
+h2{
+    font-family: Louis-George;
 }
 
 a{
@@ -58,13 +82,19 @@ iframe{
 
 .video{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
+}
+
+.image{
+    text-align: center;
+    margin-top: 40px;
 }
 
 footer{
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px;
-    background-color: #6884ac ;
+    background-color:  #6484ac ;
     padding: 10px 20px;
 }
+
