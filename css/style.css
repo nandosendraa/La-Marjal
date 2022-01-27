@@ -60,3 +60,11 @@ iframe{
     text-align: center;
     margin-top: 50px;
 }
+
+footer{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #6884ac ;
+    padding: 10px 20px;
+}
