@@ -131,7 +131,7 @@ footer{
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px;
-    background-color:  #6484ac ;
+    background-color:  #4f573c;
     padding: 10px 20px;
 }
 
@@ -167,23 +167,21 @@ footer{
 }
 
 .animals{
-    font-family: Louis-George;
     display: flex;
-    font-size: 25px;
+    flex-wrap: wrap;
 }
 
 .fishes{
-    font-family: Louis-George;
     display: flex;
-    font-size: 25px;
+    flex-wrap: wrap;
 }
 
 .plants{
-    font-family: Louis-George;
     display: flex;
-    font-size: 25px;
+    flex-wrap: wrap;
 }
 
-figure{
-    
+article h1{
+    font-family: Louis-George;
+    font-size: 25px;
 }
