@@ -80,6 +80,10 @@ aside {
     margin-right: 20px;
   }
 
+aside img{
+    width: 75%;
+}
+
 iframe{
     text-align: center;
 }
@@ -97,25 +101,31 @@ iframe{
 .table{
     text-align: center;
     margin-top: 40px;
-    border-collapse:collapse;
-    border-spacing:0;
+}
+
+table {
+    width: 100%;
+    border: 2px solid #000;
+    font-family: Louis-George;
+    border-collapse: collapse;
+     }
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-spacing: 0;
+    padding:10px 5px;
+     }
+
+th{
+    background-color: black;
+    color: white;
 }
 
 td{
-    border-color:black;
-    font-family: Louis-George;
-    border-style:solid;
-    border-width:1px;
-    font-size:14px;
-    padding:10px 5px;}
-
-th{
-    border-color:black;
-    font-family: Louis-George;
-    border-style:solid;
-    border-width:1px;
-    font-size:14px;
-    padding:10px 5px;}
+    background-color: white;
+}
 
 footer{
     margin-right: 20px;
@@ -129,3 +139,18 @@ footer{
     font-size: 20px;
 }
 
+.left img{
+    float: left;
+}
+
+.right img{
+    float: right;
+}
+
+.right{
+    text-align: right;
+}
+
+.form{
+    text-align: center;
+}
