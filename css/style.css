@@ -81,7 +81,7 @@ aside {
   }
 
 aside img{
-    width: 75%;
+    width: 85%;
 }
 
 iframe{
@@ -151,6 +151,33 @@ footer{
     text-align: right;
 }
 
+.left h2{
+    clear: both;
+}
+
+.right h2{
+    clear: both;
+}
+
 .form{
     text-align: center;
+}
+
+.animals{
+    font-family: Louis-George;
+    display: flex;
+}
+
+.fishes{
+    font-family: Louis-George;
+    display: flex;
+}
+
+.plants{
+    font-family: Louis-George;
+    display: flex;
+}
+
+figure{
+    flex: 1 1 auto;
 }
